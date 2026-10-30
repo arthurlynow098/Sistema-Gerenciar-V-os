@@ -1,45 +1,48 @@
 <p align="center">
-  <img src="assets/banner-v2.png" alt="Sistema-Gerenciar-V-os" width="100%">
+  <img src="assets/identity/banner.png" alt="Sistema-Gerenciar-V-os" width="100%">
 </p>
 
 <p align="center">Aplicação desktop para cadastro e gerenciamento de aeronaves e pilotos.</p>
 
-<p align="center"><img src="assets/docs/tags.svg" alt="C# · Windows Forms · SQL Server" width="100%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
----
+<p align="center"><img src="assets/identity/divider.svg" alt="" width="100%"></p>
 
 <a id="explore-o-projeto"></a>
 
-![Explore o projeto](assets/docs/section-01.svg)
+## Por onde começar
 
-![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
 
-<table width="100%">
-<tr><th align="left">Área</th><th align="left">O que você encontra</th><th align="left">Acesso direto</th></tr>
-<tr><td><strong>Navegação</strong></td><td>Formulário de acesso às funcionalidades.</td><td><a href="WfaDS/Menu_Geren.cs">Abrir navegação →</a></td></tr>
-<tr><td><strong>Aeronaves</strong></td><td>Código do formulário de aeronaves.</td><td><a href="WfaDS/Aeronaves_gen.cs">Abrir aeronaves →</a></td></tr>
-<tr><td><strong>Pilotos</strong></td><td>Código do formulário de pilotos.</td><td><a href="WfaDS/Pilotos_gen.cs">Abrir pilotos →</a></td></tr>
-</table>
+- **[Navegação](WfaDS/Menu_Geren.cs)** — Formulário de acesso às funcionalidades.
+- **[Aeronaves](WfaDS/Aeronaves_gen.cs)** — Código do formulário de aeronaves.
+- **[Pilotos](WfaDS/Pilotos_gen.cs)** — Código do formulário de pilotos.
+
 
 <a id="visão-geral"></a>
 
-![Visão geral](assets/docs/section-02.svg)
+## Visão geral
 
 O projeto implementa um fluxo completo de aplicação desktop clássica: tela de abertura animada (Splash), painel principal de navegação (Menu_Geren), formulários especializados (Aeronaves_gen e Pilotos_gen) e camada de persistência fortemente tipada com LP2DataSet (XSD).
 
 <a id="recursos"></a>
 
-![Recursos](assets/docs/section-03.svg)
+## Recursos
 
-| Recurso | Como funciona |
-|---|---|
-| Tela de Inicialização (Splash) | Formulário de carregamento inicial antes de liberar o menu principal do sistema. |
-| Painel Central (Menu_Geren) | Hub de navegação que conecta o operador aos módulos de frota e tripulação. |
-| Gestão de Frota (Aeronaves_gen) | Cadastro, consulta, atualização e exclusão de aeronaves vinculadas ao banco de dados. |
-| Gestão de Tripulação (Pilotos_gen) | Controle completo dos registros de pilotos habilitados na operação. |
-| DataSet Tipado (LP2DataSet.xsd) | Mapeamento do schema SQL Server com TableAdapters para operações seguras de leitura e escrita. |
+**Tela de Inicialização (Splash)**<br>
+Formulário de carregamento inicial antes de liberar o menu principal do sistema.
+
+**Painel Central (Menu_Geren)**<br>
+Hub de navegação que conecta o operador aos módulos de frota e tripulação.
+
+**Gestão de Frota (Aeronaves_gen)**<br>
+Cadastro, consulta, atualização e exclusão de aeronaves vinculadas ao banco de dados.
+
+**Gestão de Tripulação (Pilotos_gen)**<br>
+Controle completo dos registros de pilotos habilitados na operação.
+
+**DataSet Tipado (LP2DataSet.xsd)**<br>
+Mapeamento do schema SQL Server com TableAdapters para operações seguras de leitura e escrita.
 
 <details>
 <summary>Arquitetura</summary>
@@ -62,7 +65,7 @@ flowchart LR
 ```text
 Sistema-Gerenciar-V-os/
 ├── assets/
-│   └── banner-v2.png               Banner do projeto
+│   └── identity/banner.png               Banner do projeto
 ├── WfaDS/
 │   ├── Splash.cs                   Tela inicial de abertura do sistema
 │   ├── Menu_Geren.cs               Menu principal de navegação
@@ -79,7 +82,7 @@ Sistema-Gerenciar-V-os/
 
 <a id="como-executar"></a>
 
-![Como executar](assets/docs/section-04.svg)
+## Como executar
 
 1. Clone o repositório no Windows:
    ```powershell
@@ -88,7 +91,7 @@ Sistema-Gerenciar-V-os/
 2. Abra WfaDS.sln no **Visual Studio** e verifique a string de conexão do SQL Server no arquivo WfaDS/App.config.
 3. Compile e inicie a aplicação pressionando **F5**.
 
----
+<p align="center"><img src="assets/identity/divider.svg" alt="" width="100%"></p>
 
 <p align="center">
   <a href="https://github.com/arthurlynow098">GitHub</a> &nbsp;·&nbsp;
