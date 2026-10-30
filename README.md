@@ -4,7 +4,7 @@
 
 <p align="center">Aplicação desktop para cadastro e gerenciamento de aeronaves e pilotos.</p>
 
-<p align="center"><img src="assets/docs/tags.svg" alt="C# · Windows Forms · SQL Server" width="72%"></p>
+<p align="center"><img src="assets/docs/tags.svg" alt="C# · Windows Forms · SQL Server" width="100%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
@@ -16,11 +16,12 @@
 
 ![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
 
-| Área | O que você encontra | Acesso direto |
-|---|---|---|
-| **Navegação** | Formulário de acesso às funcionalidades. | [Abrir navegação →](WfaDS/Menu_Geren.cs) |
-| **Aeronaves** | Código do formulário de aeronaves. | [Abrir aeronaves →](WfaDS/Aeronaves_gen.cs) |
-| **Pilotos** | Código do formulário de pilotos. | [Abrir pilotos →](WfaDS/Pilotos_gen.cs) |
+<table width="100%">
+<tr><th align="left">Área</th><th align="left">O que você encontra</th><th align="left">Acesso direto</th></tr>
+<tr><td><strong>Navegação</strong></td><td>Formulário de acesso às funcionalidades.</td><td><a href="WfaDS/Menu_Geren.cs">Abrir navegação →</a></td></tr>
+<tr><td><strong>Aeronaves</strong></td><td>Código do formulário de aeronaves.</td><td><a href="WfaDS/Aeronaves_gen.cs">Abrir aeronaves →</a></td></tr>
+<tr><td><strong>Pilotos</strong></td><td>Código do formulário de pilotos.</td><td><a href="WfaDS/Pilotos_gen.cs">Abrir pilotos →</a></td></tr>
+</table>
 
 <a id="visão-geral"></a>
 
