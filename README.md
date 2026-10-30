@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="assets/project-animal.png" alt="Emblema de Sistema-Gerenciar-V-os" width="144" height="144">
+  <img src="assets/banner-v2.png" alt="Sistema-Gerenciar-V-os" width="100%">
 </p>
-
-<h1 align="center">Sistema-Gerenciar-V-os</h1>
 
 <p align="center">Aplicação desktop para cadastro e gerenciamento de aeronaves e pilotos.</p>
 
