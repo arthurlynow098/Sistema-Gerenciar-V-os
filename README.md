@@ -4,21 +4,33 @@
 
 <p align="center">Aplicação desktop para cadastro e gerenciamento de aeronaves e pilotos.</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/C%23-C52E36?style=flat-square" alt="C#">
-  <img src="https://img.shields.io/badge/Windows%20Forms-24272E?style=flat-square" alt="Windows Forms">
-  <img src="https://img.shields.io/badge/SQL%20Server-24272E?style=flat-square" alt="SQL Server">
-</p>
+<p align="center"><img src="assets/docs/tags.svg" alt="C# · Windows Forms · SQL Server" width="72%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
 ---
 
-## Visão geral
+<a id="explore-o-projeto"></a>
+
+![Explore o projeto](assets/docs/section-01.svg)
+
+![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
+
+| Área | O que você encontra | Acesso direto |
+|---|---|---|
+| **Navegação** | Formulário de acesso às funcionalidades. | [Abrir navegação →](WfaDS/Menu_Geren.cs) |
+| **Aeronaves** | Código do formulário de aeronaves. | [Abrir aeronaves →](WfaDS/Aeronaves_gen.cs) |
+| **Pilotos** | Código do formulário de pilotos. | [Abrir pilotos →](WfaDS/Pilotos_gen.cs) |
+
+<a id="visão-geral"></a>
+
+![Visão geral](assets/docs/section-02.svg)
 
 O projeto implementa um fluxo completo de aplicação desktop clássica: tela de abertura animada (Splash), painel principal de navegação (Menu_Geren), formulários especializados (Aeronaves_gen e Pilotos_gen) e camada de persistência fortemente tipada com LP2DataSet (XSD).
 
-## Recursos
+<a id="recursos"></a>
+
+![Recursos](assets/docs/section-03.svg)
 
 | Recurso | Como funciona |
 |---|---|
@@ -49,7 +61,7 @@ flowchart LR
 ```text
 Sistema-Gerenciar-V-os/
 ├── assets/
-│   └── project-animal.png          Emblema do projeto
+│   └── banner-v2.png               Banner do projeto
 ├── WfaDS/
 │   ├── Splash.cs                   Tela inicial de abertura do sistema
 │   ├── Menu_Geren.cs               Menu principal de navegação
@@ -64,7 +76,9 @@ Sistema-Gerenciar-V-os/
 
 </details>
 
-## Como executar
+<a id="como-executar"></a>
+
+![Como executar](assets/docs/section-04.svg)
 
 1. Clone o repositório no Windows:
    ```powershell
